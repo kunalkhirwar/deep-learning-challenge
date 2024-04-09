@@ -29,7 +29,7 @@ From Alphabet Soup’s business team, I had received a CSV containing more than 
                          - Reason for choosing the activation function - outputs (0 or 1) can be easily interpreted as probabilities, which makes it natural for binary 
                            classification problems.
 
-  - Target model performance achieved is 72.47%.
+  - Target model performance achieved is 72.77%.
   - Steps taken to increase the model performance:
     - used KerasTuner to optimize the hyperparameters of the deep learning model.
     - used Principal Component Analysis (PCA) to summarize the information content in large data tables by means of a smaller set of “summary indices” that can be more 
@@ -38,4 +38,4 @@ From Alphabet Soup’s business team, I had received a CSV containing more than 
    
 **SUMMARY**
   
-The deep learning model achieved a 72.47% accuracy rate in predicting funding success. While efforts like hyperparameter optimization and PCA were made to improve it, performance could still be enhanced. A recommendation is to try gradient boosting algorithms like XGBoost or LightGBM. These methods offer ensemble learning, handle nonlinear relationships efficiently, provide feature importance scores, and are computationally efficient, potentially leading to better predictions and insights into factors affecting funding success.
+The deep learning model achieved a 72.77% accuracy rate in predicting funding success. While efforts like hyperparameter optimization and PCA were made to improve it, performance could still be enhanced. A recommendation is to try gradient boosting algorithms like XGBoost or LightGBM. These methods offer ensemble learning, handle nonlinear relationships efficiently, provide feature importance scores, and are computationally efficient, potentially leading to better predictions and insights into factors affecting funding success.
